@@ -550,7 +550,7 @@ class WebSearchEngine:
     """Class to handle different web search methods"""
     
     def __init__(self):
-        self.serp_api_key = "47471a3d03daf6206711248d383005177d3efa1294eeca090575ae753471e459"
+        self.serp_api_key = "6733bc3194fff504784da080c3ec00e2e94ed25cb29797850a4475905d6665d0"
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
